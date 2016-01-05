@@ -5,9 +5,19 @@
 #   gem 'sqlite3'
 #
 default: &default
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
+
+development: 
   url: <% ENV['DATABASE_URL'] %>
   adapter: postgresql
   pool: 5
   timeout: 5000
 
+production:
+  url: <% ENV['DATABASE_URL'] %>
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
 

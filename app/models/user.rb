@@ -11,6 +11,7 @@ class User < ActiveRecord::Base
          user.last_name = auth['info']['last_name'] || ""
          user.avatar = auth['info']['avatar'] || ""
       end
+      
     end
   end
 
