@@ -20,7 +20,7 @@ gem 'bootstrap-sass'
 gem 'high_voltage'
 gem 'omniauth'
 gem 'omniauth-twitter'
-gem 'omniauth-oauth2'
+gem 'omniauth-oauth2', '~> 1.3.1'
 gem 'omniauth-fablabs', :git => 'https://github.com/fibasile/omniauth-fablabs.git'
 group :development do
   gem 'better_errors'
