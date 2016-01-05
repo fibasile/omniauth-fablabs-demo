@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/fibasile/omniauth-fablabs.git
-  revision: fc6fb44f23e7d41356d030e069a2672107014527
+  revision: c188204faa7a4042fa5a1f3368ce6496e20659ee
   specs:
     omniauth-fablabs (0.0.1)
       omniauth-oauth2 (~> 1.3.1)
